@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+.field {
+    width: 50px;
+    height: 50px;
+    background-image: url('img/buttons/00_Default.png');
+    background-size: contain;
+    margin: 1px;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-image: url('img/Background/Full bg.png');
+}
+
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.margin-top {
+    margin-top: 64px;
+}
+
+.bgBox {
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: max-content;
+    padding: 32px;
+}
+
+.bgBox img {
+    width: 130px;
+    height: 130px;
+}
+
+.bgBox span {
+    padding-top: 32px;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.gameField {
+    display: flex;
+    flex-wrap: wrap;
+    width: 840px;
+}
+
+.rightSection img {}
